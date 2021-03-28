@@ -2,8 +2,13 @@ button {
   padding: 15px;
   background-color: red;
   cursor: pointer;
+  border-radius: 40px;
+  outline: none;
 }
 button:hover {
   background-color: green;
   color: white;
+}
+button::focus {
+  outline: none;
 }
