@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: ["./rybutton.component.css"]
 })
 export class RybuttonComponent {
-  n: number = 7;
+  n: number = 3;
 
   presionar() {
     this.n += 1;
